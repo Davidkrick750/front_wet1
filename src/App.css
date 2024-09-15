@@ -138,7 +138,6 @@
   margin-top: 50px;
 }
 .img_back_{
-  background-image: url('https://www.smeg.com/binaries/content/gallery/smeg-nordics/content-elements/visual-boxes/rust.png/rust.png/brx%3ApostcardDeskLarge')!important; 
   background-position: 20% center;
   background-color: rgb(83 45 7 / 50%);
     background-blend-mode: multiply;
@@ -168,28 +167,36 @@
   text-align: start;
 }
 .coimg{
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .menu-link {
   display: inline-block;
   position: relative;
   padding: 0.5em 0;
-  color: #ffffffc4!important;
+  color: #fffffff8!important;
   line-height: 1.5em;
 }
 .unsetbg{
-  background-image: url('https://www.smeg.com/binaries/content/gallery/smeg-nordics/content-elements/visual-boxes/rust.png/rust.png/brx%3ApostcardDeskLarge')!important; 
-background:#00000003;
+  background-image: url('./pages/images/7.jpeg'); 
 ;
 }
 .cart-drawer-items-list {
-  max-height: 27.675rem;
+  max-height: auto!important;
   overflow-y: auto;
   height: 100%;
   margin: 1.875rem 0;
   padding: 0 1.25rem;
 }
-
+.dpfd{
+  cursor: pointer;
+    font-size: 21px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
+.cart-drawer-items-list{
+  max-height: auto!important;
+}
 .smooth-16 {
   text-shadow: unset !important;
 }
@@ -383,8 +390,8 @@ background:#00000003;
 
 }
 .w500{
-  width: 49%;
-  max-height: 300px;
+  width: 100%;
+  max-height: 600px;
 }    .translate-middle {
   margin-left: 0px !important;
 }
